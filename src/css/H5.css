@@ -1,0 +1,28 @@
+/*
+ * @Descripttion: H5 webapp 全局样式
+ * @version: 
+ * @Author: hm.tang
+ * @LastEditors: hm.tang
+ * @Date: 2019-04-18 13:37:28
+ * @LastEditTime: 2019-04-19 15:48:02
+ */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* 页面 */
+.h5_page {
+  color: #fff;
+  font-size: 12px;
+  background-color: #000;
+}
+
+/* 组件 */
+.h5_com {
+  position: absolute;
+}
+
