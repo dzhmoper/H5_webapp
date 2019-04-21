@@ -4,7 +4,7 @@
  * @Author: hm.tang
  * @LastEditors: hm.tang
  * @Date: 2019-04-18 13:37:52
- * @LastEditTime: 2019-04-20 13:53:14
+ * @LastEditTime: 2019-04-20 23:04:02
  */
 
 /**
@@ -31,6 +31,7 @@ var H5ComponentBase = function(name, options) {
   options.css && component.css(options.css);
   options.bg && component.css('backgroundImage', 'url(' + options.bg + ')');
 
+  // 定位
   switch(options.align) {
     case 'center':
       var width = (options.width !== undefined) ? options.width : component.width();

@@ -4,7 +4,7 @@
  * @Author: hm.tang
  * @LastEditors: hm.tang
  * @Date: 2019-04-19 14:05:53
- * @LastEditTime: 2019-04-20 17:16:53
+ * @LastEditTime: 2019-04-20 23:47:50
  */
 
 /**
@@ -56,6 +56,12 @@ var H5_Loading = function (images, firstPage) {
   window[id] = null;
   // 初始化 fullpage 插件
   this.el.fullpage({
+    parallax: true,
+		parallaxOptions: {
+			type: 'reveal',
+			percentage: 62,
+			property: 'translate'
+		},
     onLeave: function (index, nextIndex, direction) {
       $(this).find('.h5_com').trigger('onLeave');
     },
