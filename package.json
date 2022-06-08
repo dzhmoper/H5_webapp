@@ -1,0 +1,7 @@
+{
+    "pangujs": {
+    "ignore": [
+      ".git"
+    ]
+  }
+}
